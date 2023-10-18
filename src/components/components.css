@@ -1,0 +1,30 @@
+.menu{
+    display: flex;
+}
+.menu-button1, .menu-button1-noactive{
+    border-radius: 20px 20px 0px 0px;
+    background: white ;
+    color:#3922C5;
+    font-family: Montserrat;
+    border: 1px solid transparent;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:33px;
+    padding: 20px 24px;
+    cursor: pointer;
+}
+
+.menu-button1-noactive{
+    background-color: #D9D9D9;
+    color:#0C0C0C;
+
+}
+.menu-button1:hover, .menu-button1-noactive:hover{
+    border-color: #F4F4F4;
+}
+/* .menu-button1:active, .menu-button1:focus, .menu-button1-active:active, .menu-button1-active:focus{
+    border-color:white;
+    background-color: #ffffff;
+
+} */
