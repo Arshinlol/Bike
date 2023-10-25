@@ -4,8 +4,39 @@
   padding: 2rem;
   text-align: center;
 }
-.div{
+.conteiner{
+  padding-top: 40px;
   background-color: white;
   width: 846px;
   height: 845px; 
+  border-radius: 0px 20px 20px 20px;
+  overflow: hidden;
+}
+
+.header{
+  display: flex;
+}
+
+.bike{
+  width: 358px;
+  height: 232px;
+  background-image: url(./components/images/image_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: -68px;
+  flex-shrink: 0
+}
+
+.texst{
+  margin-left: 60px;
+  width: 425px;
+  text-align: left;
+}
+
+.line{
+  margin-top: 40px;
+  width: 726px;
+  height: 1px;
+  flex-shrink: 0;
+  background-color: #D9D9D9;
 }
