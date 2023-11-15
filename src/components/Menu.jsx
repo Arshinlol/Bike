@@ -14,19 +14,18 @@ import './components.css'
 // ]
 
 
-function Menu() {
-    const[activeButton, setActiveButton] = useState("Горный велосипед");
+function Menu({activeButton, changeActiveButton}) {
     return(
         <div className="menu">
             <Menubutton
                 name = "Горный велосипед"
-                cls = {activeButton === "Горный велосипед" ? 'menu-button1' : 'menu-button1-noactive'}
-                change = {() => setActiveButton("Горный велосипед")}>
+                cls = {activeButton === "monts" ? 'menu-button1' : 'menu-button1-noactive'}
+                change = {() => changeActiveButton("monts")}>
             </Menubutton>
             <Menubutton 
                 name = "Женский велосипед"
-                cls = {activeButton === "Женский велосипед" ? 'menu-button1' : 'menu-button1-noactive'}
-                change = {() => setActiveButton("Женский велосипед")}>
+                cls = {activeButton === "wom" ? 'menu-button1' : 'menu-button1-noactive'}
+                change = {() => changeActiveButton("wom")}>
             </Menubutton>
         </div>
     );
