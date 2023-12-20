@@ -1,3 +1,6 @@
+import Footer from "./Footer";
+import List from "./list";
+
 function Content({activeButton}){
     const data ={
         monts:{
@@ -34,6 +37,8 @@ function Content({activeButton}){
             </div>
         </div>
         <hr className="line" />
+        <List></List>
+        <Footer></Footer>
     </>
     );
 }
