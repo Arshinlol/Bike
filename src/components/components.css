@@ -40,6 +40,12 @@
 .params_list li {
     margin: 0 0 16px 0;
 }
+.params_list.wom li{
+    list-style-type: none;
+    background: url(./fi-rr-bike.png) no-repeat;
+    margin-left: -16px;
+    padding-left: 36px;
+}
 .add_params{
     margin: 20px 0 0 0;
 }

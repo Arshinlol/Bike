@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function List({intialParams}){
+function List({intialParams, activeButton}){
     const[text, setText] = useState('');
     const[params, setParams] = useState(intialParams || []); 
 
@@ -19,7 +19,7 @@ function List({intialParams}){
             <h3>
             Характеристики
             </h3>
-            <ol className="params_list">
+            <ol className={`params_list ${activeButton === "wom" && activeButton}`}>
                {params.map((har) => ( <li key={har}>{har}</li>))}
             </ol>
             <div className="add_params">

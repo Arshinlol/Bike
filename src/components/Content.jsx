@@ -39,7 +39,7 @@ function Content({activeButton}){
             </div>
         </div>
         <hr className="line" />
-        <List intialParams={data[activeButton].params}></List>
+        <List intialParams={data[activeButton].params} activeButton = {activeButton}></List>
         <Footer></Footer>
     </>
     );
