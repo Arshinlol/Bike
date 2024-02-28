@@ -12,6 +12,9 @@
   border-radius: 0px 20px 20px 20px;
   overflow: hidden;
 }
+.conteiner.mob{
+  display: none;
+}
 
 .header{
   display: flex;
@@ -38,4 +41,19 @@
   height: 1px;
   flex-shrink: 0;
   background-color: #D9D9D9;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .conteiner{
+    display: none;
+  }
+  .menu{
+    flex-direction: column;
+  }
+  .conteiner.mob.show{
+    display: block;
+    max-width: 50%;
+    border-top-right-radius: 0px;
+    
+  }
 }
