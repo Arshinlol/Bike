@@ -1,7 +1,7 @@
-function Menubutton({name, cls, change}){
+function Menubutton({name, cls, change, arrowCls}){
     return(
         <button className={cls} onClick={change}>
-            {name}
+            {name}<span className={arrowCls}></span>
         </button>
     );
 }

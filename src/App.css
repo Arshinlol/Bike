@@ -54,6 +54,34 @@
     display: block;
     max-width: 50%;
     border-top-right-radius: 0px;
-    
+    animation: appear 1.5s;
+  }
+  .conteiner.mob{
+    animation: dissapear 1.5s;
+  }
+}
+
+@keyframes appear{
+  0%{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-9999);
+  }
+  100%{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes dissappear{
+  0%{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-9999);
   }
 }

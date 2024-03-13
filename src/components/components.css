@@ -13,21 +13,44 @@
     line-height:33px;
     padding: 20px 24px;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-button1-noactive{
     background-color: #D9D9D9;
     color:#0C0C0C;
-
 }
 .menu-button1:hover, .menu-button1-noactive:hover{
     border-color: #F4F4F4;
+
 }
 /* .menu-button1:active, .menu-button1:focus, .menu-button1-active:active, .menu-button1-active:focus{
     border-color:white;
     background-color: #ffffff;
 
 } */
+
+.arrow_up {
+    border: solid black;
+    padding: 5px;
+    border-width: 0px 3px 3px 0px;
+    display: none;
+    transform: rotate(-135deg);
+    font-size: 22px;
+    border-radius: 2px;
+}
+.arrow_down {
+    border: solid black;
+    padding: 5px;
+    border-width: 0px 3px 3px 0px;
+    display: none;
+    transform: rotate(45deg);
+    font-size: 22px;
+    border-radius: 2px;
+}
+
 
 .params{
     margin: 40px 0 0 60px;
@@ -132,5 +155,9 @@
     }
     .menu-button1-noactive{
         margin: 20px 0px;
+    }
+    .arrow_down,
+    .arrow_up{
+        display: inline-block;
     }
 }

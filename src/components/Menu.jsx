@@ -22,7 +22,8 @@ function Menu({activeButton, changeActiveButton}) {
             <Menubutton
                 name = "Горный велосипед"
                 cls = {activeButton === "monts" ? 'menu-button1' : 'menu-button1-noactive'}
-                change = {() => changeActiveButton("monts")}>
+                arrowCls={activeButton === "monts" ? 'arrow_up' : 'arrow_down'}
+                change = {() => changeActiveButton( "monts")}>
             </Menubutton>
              <div className= {`conteiner mob ${activeButton === "monts" && "show"}`}>
                 <Content activeButton = {activeButton}/>
@@ -30,6 +31,7 @@ function Menu({activeButton, changeActiveButton}) {
             <Menubutton 
                 name = "Женский велосипед"
                 cls = {activeButton === "wom" ? 'menu-button1' : 'menu-button1-noactive'}
+                arrowCls={activeButton === "wom" ? 'arrow_up' : 'arrow_down'}
                 change = {() => changeActiveButton("wom")}>
             </Menubutton>
             <div className= {`conteiner mob ${activeButton === "wom" && "show"}`}>
