@@ -13,13 +13,13 @@ function App() {
     }
 
   return (
-    <>
+    <div className='main'>
       <Menu activeButton = {activeButton} changeActiveButton = {changeActive}></Menu>
       <div className='conteiner'>
         <Content activeButton = {activeButton}/>
       </div>
       
-    </>
+    </div>
   )
 }
 

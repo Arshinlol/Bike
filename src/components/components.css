@@ -1,5 +1,6 @@
 .menu{
     display: flex;
+
 }
 .menu-button1, .menu-button1-noactive{
     border-radius: 20px 20px 0px 0px;
@@ -74,7 +75,6 @@
 }
 .add_params_form{
     margin: 20px 0 0 0;
-
 }
 .add_params_form input {
     width: 351px;
@@ -159,5 +159,14 @@
     .arrow_down,
     .arrow_up{
         display: inline-block;
+    }
+    .params{
+        margin: 30px 0 0 20px;
+    }
+    .params_list{
+        column-count: 1;
+    }
+    .add_params{
+        margin-left: 20px;
     }
 }

@@ -8,13 +8,11 @@
   padding-top: 40px;
   background-color: white;
   width: 846px;
-  height: 845px; 
   border-radius: 0px 20px 20px 20px;
   overflow: hidden;
 }
 .conteiner.mob{
-  display: none;
-}
+  display: none;}
 
 .header{
   display: flex;
@@ -33,6 +31,7 @@
   margin-left: 60px;
   width: 425px;
   text-align: left;
+
 }
 
 .line{
@@ -52,12 +51,29 @@
   }
   .conteiner.mob.show{
     display: block;
-    max-width: 50%;
     border-top-right-radius: 0px;
     animation: appear 1.5s;
   }
   .conteiner.mob{
     animation: dissapear 1.5s;
+    width: 335px;
+  }
+  .header{
+    flex-direction: column;
+  }
+  .bike{
+    margin: 0 auto;
+    width: 295px;
+    height: 192px;
+  }
+  .texst{
+    text-align: left;
+    margin: 0 20px;
+    width: 295px;
+  }
+  .line{
+    width: 295px;
+    margin-top: 30px;
   }
 }
 
