@@ -167,6 +167,30 @@
         column-count: 1;
     }
     .add_params{
-        margin-left: 20px;
+        margin-top: 30px;
     }
+    .add_params_form{
+        margin-top: 15px;
+    }
+    .add_params_form input{
+        max-width: 260px;
+    }
+    .add_params_form button{
+        margin-top: 15px;
+        width: 295px;
+        margin-left: 0px;
+        height: 50px;
+    }
+    .footer{
+        width: 260px;
+        margin-top: 30px;
+        margin-left: 20px;
+        padding: 30px 20px;
+        justify-content: space-around;
+    }
+    .footer button{
+        width: 120px;
+        height: 50px;
+    }
+
 }
